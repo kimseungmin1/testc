@@ -6,7 +6,6 @@ main() {
 	int k;
 	int sum = 0;
 	float sum2 = 0;
-	float sum3 = 0;
 	
 	for(i=8;i<51;i++){
 		if(i%2 == 0){
