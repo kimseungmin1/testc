@@ -7,10 +7,10 @@ main() {
 	int sum = 0;
 	float sum2 = 0;
 	
-	for(i=8;i<=51;i++){
+	for(i=8;i<51;i++){
 		if(i%2 == 0){
 		
-			for(k=2;k<=i-1;k++){
+			for(k=2;k<i;k++){
 				if(k%2 == 0){
 					sum+=k;
 				}
@@ -26,5 +26,3 @@ main() {
 	printf("%.3f",sum2 );
 	
 }
-
-
